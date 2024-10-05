@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 11 09:24:01 2021
-
-@author: philippeangot
-"""
-
 #
 # Solve Cauchy initial-value problem (I.V.P.) for a first-order system of O.D.E.:
 # Y' = f(t,Y), for t in [t0,T]
