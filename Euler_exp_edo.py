@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 11 09:24:01 2021
-
-@author: philippeangot
-"""
-
 # Packages
 # from numpy import *
 
