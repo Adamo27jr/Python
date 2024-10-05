@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 26 14:54:55 2024
-
-@author: user
-"""
-
 import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
