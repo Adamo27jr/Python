@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 30 19:11:49 2022
-
-@author: philippeangot
-"""
-
 #
 # Finite Difference (F.D.) explicit schemes for the linear transport P.D.E.
 # with given velocity c >0 or <0:
