@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 11 08:48:50 2022
-
-@author: philippeangot
-"""
-
 #
 # Solution of elliptic Boundary-value problem (B.V.P.)
 #
