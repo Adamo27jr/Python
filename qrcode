@@ -1,0 +1,23 @@
+import qrcode
+
+pdf_url = "https://drive.google.com/file/d/1VASi25mD_d6PK-9V-BeoCxB-HimioODF/view?usp=sharing" #lien du cv 
+
+# Création du QR code
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=4,
+)
+
+# Ajout de l'URL du PDF
+qr.add_data(pdf_url)
+qr.make(fit=True)
+
+# image du QR code
+img = qr.make_image(fill="black", back_color="white")
+
+
+img.save("qrcode_pdf.png")
+
+print("QR code généré et sauvegardé sous 'qrcode_pdf.png'. Scannez-le pour accéder au PDF.")
